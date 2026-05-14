@@ -1,36 +1,42 @@
-# 🚌 Denizli Akıllı Ulaşım A.Ş. — Smart City Transit System
+# 🚌 Denizli Akıllı Ulaşım A.Ş. — Akıllı Şehir Transit Sistemi
+
+![Banner](./Acılıs.png)
 
 ![Version](https://img.shields.io/badge/version-2.0.0-blue.svg?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)
-![Leaflet](https://img.shields.io/badge/Map-LeafletJS-orange.svg?style=for-the-badge)
-![UI](https://img.shields.io/badge/UI-Premium_Dark-black.svg?style=for-the-badge)
+![Leaflet](https://img.shields.io/badge/Harita-LeafletJS-orange.svg?style=for-the-badge)
+![UI](https://img.shields.io/badge/Aray%C3%BCz-Premium_Karanl%C4%B1k-black.svg?style=for-the-badge)
 
-**Denizli Akıllı Ulaşım**, Denizli şehri için geliştirilmiş, kurumsal düzeyde bir gerçek zamanlı otobüs takip ve simülasyon sistemidir. Modern "Glassmorphism" tasarımı ve OSRM tabanlı gerçek yol rotalarıyla birleşen bu uygulama, kullanıcılara Apple Maps kalitesinde bir deneyim sunar.
+**Denizli Akıllı Ulaşım**, Denizli şehri için özel olarak tasarlanmış, kurumsal düzeyde bir gerçek zamanlı otobüs takip ve simülasyon sistemidir. Modern **Glassmorphism** estetiği ve **OSRM** tabanlı gerçek yol rotalarıyla donatılan bu uygulama, kullanıcılara üst düzey bir şehir içi ulaşım deneyimi sunar.
 
 ---
 
 ## 🌟 Öne Çıkan Özellikler
 
-- **🛣️ Gerçek Yol Geometrisi:** Otobüsler kuş uçuşu değil, OSRM (Open Source Routing Machine) verileriyle gerçek sokaklar üzerinden gider.
-- **🕒 Canlı Saat Senkronizasyonu:** Tüm otobüsler gerçek saate göre hareket eder. Sayfayı açtığınızda her araç o anki konumundan başlar.
-- **🚌 Devasa Şehir Ağı:** 80'den fazla aktif hat ve harita üzerinde aynı anda hareket eden 160+ canlı otobüs.
-- **📍 Hassas Durak Verileri:** Denizli'nin 38 kritik noktası (Otogar, PAÜ, Pamukkale, Karahayıt vb.) gerçek GPS koordinatlarıyla sisteme işlenmiştir.
-- **💎 Premium Dark UI:** Apple tarzı ikonlar, şeffaf paneller (Glassmorphism) ve pürüzsüz animasyonlar.
-- **🌓 Yükleme Ekranı (Splash):** Kurumsal logolu, animasyonlu ve yeşil temalı özel açılış ekranı.
+- **🛣️ Gerçek Yol Geometrisi:** Otobüsler artık kuş uçuşu değil, **OSRM (Open Source Routing Machine)** verileriyle gerçek sokaklar ve caddeler üzerinden ilerler.
+- **🕒 Canlı Senkronizasyon:** Tüm otobüsler gerçek saate göre hareket eder. Uygulamayı açtığınız anda her araç, o anki gerçek konumundan yolculuğuna başlar.
+- **🚌 Geniş Şehir Ağı:** 80'den fazla aktif hat ve aynı anda haritada süzülen 160'tan fazla canlı otobüs.
+- **📍 Hassas Durak Verileri:** Otogar, PAÜ, Pamukkale ve Karahayıt gibi 38 kritik nokta, gerçek GPS koordinatlarıyla sisteme entegre edilmiştir.
+- **💎 Premium Karanlık Arayüz:** Apple tarzı ikonlar, şeffaf cam paneller (Glassmorphism) ve akıcı geçiş animasyonları.
+- **🌓 Dinamik Splash Screen:** Kurumsal logolu, animasyonlu ve şehirle özdeşleşen yeşil temalı özel açılış ekranı.
 
 ---
 
-## 📸 Ekran Görüntüleri
+## 📸 Uygulama Galerisi
 
-| Açılış Ekranı | Ana Harita | Hat Detayı |
+<div align="center">
+
+| 🚀 Açılış Ekranı | 🗺️ Canlı Harita | 📋 Hat Detayları |
 | :---: | :---: | :---: |
-| ![Splash](https://via.placeholder.com/300x200?text=Premium+Splash+Screen) | ![Map](https://via.placeholder.com/300x200?text=Real-time+Bus+Traffic) | ![Detail]([https://via.placeholder.com/300x200?text=Live+ETA+Timeline](https://github.com/Quadraxx/denizlibus-next/blob/main/Anaharita.png)) |
+| <img src="./Acılıs.png" width="300" alt="Açılış Ekranı"> | <img src="./Anaharita.png" width="300" alt="Ana Harita"> | <img src="./Hat.png" width="300" alt="Hat Detayı"> |
+
+</div>
 
 ---
 
-## 🛠️ Teknoloji Yığını
+## 🛠️ Kullanılan Teknolojiler
 
-- **Frontend:** HTML5, CSS3 (Vanilla CSS), JavaScript (ES6+)
+- **Frontend:** HTML5, CSS3 (Modern Vanilla CSS), JavaScript (ES6+)
 - **Harita Motoru:** [Leaflet.js](https://leafletjs.com/)
 - **Yönlendirme:** Leaflet Routing Machine & OSRM API
 - **Tasarım:** Glassmorphism, CSS Grid/Flexbox, Keyframe Animations
@@ -38,51 +44,41 @@
 
 ---
 
-## 🚀 Kurulum
+## 🚀 Kurulum ve Çalıştırma
 
-Projeyi yerel makinenizde çalıştırmak için herhangi bir kurulum gerektirmez. Dosyaları indirin ve `index.html` dosyasını tarayıcınızda açın.
+Projeyi yerel makinenizde çalıştırmak oldukça basittir. Herhangi bir derleme süreci gerektirmez.
 
-```bash
-# Depoyu klonlayın
-git clone https://github.com/kullaniciadi/denizli-otobus-takip.git
-
-# Proje dizinine gidin
-cd denizli-otobus-takip
-
-# index.html'i açın
-open index.html
-```
+1.  **Depoyu Klonlayın:**
+    ```bash
+    git clone https://github.com/Quadraxx/denizli-otobus.git
+    ```
+2.  **Dizine Girin:**
+    ```bash
+    cd denizli-otobus
+    ```
+3.  **Çalıştırın:**
+    `index.html` dosyasını favori tarayıcınızda açmanız yeterlidir.
 
 ---
 
 ## 📁 Dosya Yapısı
 
-- `index.html`: Uygulamanın ana iskeleti ve splash screen.
-- `style.css`: Tüm premium karanlık tema ve animasyon stilleri.
-- `app.js`: Simülasyon motoru, saat senkronizasyonu ve harita mantığı.
-- `stops.js`: Denizli'deki tüm durakların GPS veritabanı.
-- `routes.js`: 80+ hattın durak dizilimleri ve renk tanımları.
-- `logo.png`: Kurumsal logo görseli.
-
----
-
-## 🤝 Katkıda Bulunma
-
-1. Bu depoyu çatallayın (Fork).
-2. Yeni bir özellik dalı (Feature Branch) oluşturun: `git checkout -b ozellik/yeniOzellik`
-3. Değişikliklerinizi kaydedin: `git commit -m 'Yeni özellik eklendi'`
-4. Dalınıza gönderin: `git push origin ozellik/yeniOzellik`
-5. Bir Çekme İsteği (Pull Request) oluşturun.
+- 📄 `index.html`: Uygulamanın ana iskeleti ve açılış (splash) ekranı.
+- 🎨 `style.css`: Premium karanlık tema ve cam efektli (glassmorphism) stiller.
+- ⚙️ `app.js`: Simülasyon motoru, saat senkronizasyonu ve harita mantığı.
+- 📍 `stops.js`: Denizli'deki tüm durakların GPS veritabanı.
+- 🛤️ `routes.js`: 80+ hattın durak dizilimleri ve renk tanımları.
+- 🖼️ `logo.png`: Kurumsal logo görseli.
 
 ---
 
 ## 📜 Lisans
 
-Bu proje **MIT Lisansı** altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakabilirsiniz.
+Bu proje **MIT Lisansı** kapsamında sunulmaktadır. Özgürce kullanabilir ve geliştirebilirsiniz.
 
 ---
 
-### 👨‍💻 Geliştirici
-**Denizli Akıllı Şehir Ekibi** tarafından geliştirilmiştir. ✨
+### 👨‍💻 Geliştirici Ekibi
+**Denizli Akıllı Şehir Teknolojileri** tarafından geliştirilmiştir. ✨
 
-*"Şehrin ulaşımı artık parmaklarınızın ucunda."*
+> *"Şehrin ulaşımı artık parmaklarınızın ucunda."*
