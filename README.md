@@ -24,7 +24,7 @@
 
 | Açılış Ekranı | Ana Harita | Hat Detayı |
 | :---: | :---: | :---: |
-| ![Splash](https://via.placeholder.com/300x200?text=Premium+Splash+Screen) | ![Map](https://via.placeholder.com/300x200?text=Real-time+Bus+Traffic) | ![Detail](https://via.placeholder.com/300x200?text=Live+ETA+Timeline) |
+| ![Splash](https://via.placeholder.com/300x200?text=Premium+Splash+Screen) | ![Map](https://via.placeholder.com/300x200?text=Real-time+Bus+Traffic) | ![Detail]([https://via.placeholder.com/300x200?text=Live+ETA+Timeline](https://github.com/Quadraxx/denizlibus-next/blob/main/Anaharita.png)) |
 
 ---
 
