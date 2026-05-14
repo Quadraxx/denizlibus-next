@@ -1,0 +1,228 @@
+
+Otogar
+
+Koordinat
+37.785436, 29.091480
+
+Adliye
+
+Koordinat
+37.778695, 29.034172
+
+Koordinat
+37.777364, 29.018422
+
+1200 Ev
+
+Koordinat
+37.778688, 29.008327
+
+Teras Park 
+
+Koordinat
+37.759928, 29.044697
+
+Devlet Hastanesi
+
+Koordinat
+37.782918, 29.078761
+
+Tekden Hastanesi
+
+Koordinat
+37.780146, 29.069374
+
+Çınar Meydanı
+
+Koordinat
+37.773312, 29.087224
+
+Kütüphane
+
+Koordinat
+37.772326, 29.089742
+
+Emniyet Müdürlüğü
+
+Koordinat
+37.777398, 29.098524
+
+Pammukale Belediyesi 
+
+Koordinat
+37.763422, 29.102311
+
+İncilipınar Parkı
+
+Koordinat
+37.761352, 29.094393
+
+
+Forum Çamlık
+
+Koordinat
+37.754286, 29.089994
+
+
+Pamukkale Üniversitesi Hastanesi
+
+Koordinat
+37.743063, 29.106989
+
+Pamukkale Üniversitesi Yerleşkesi
+
+Koordinat
+37.743843, 29.098299
+
+
+Çamlık Parkı Alt Giriş 
+
+Koordinat
+37.739823, 29.092848
+
+Çamlık Parkı Üst Giriş 
+
+Koordinat
+37.742732, 29.088943
+
+Atatürk Stadyumu 
+
+Koordinat
+37.765949, 29.081154
+
+
+Saltak Cd Durak
+
+Koordinat
+37.777940, 29.082119
+
+Saltak Cd 2 Durak 
+
+Koordinat
+37.774634, 29.083021
+
+Saltak Cd 3 Durak
+
+Koordinat
+37.782859, 29.084201
+
+
+Horizon Garden AVM
+
+Koordinat
+37.79024044731369
+29.089726770727097
+
+Sosyete Pazarı
+
+Kordinat
+
+37.780210835953824 
+29.097700044038444
+
+
+Bitek Koleji ve Dokuzkavaklar Hastanesi
+
+Kordinat
+37.791569684574995 
+29.1015642967975
+
+Sevindik Kavşağı
+
+Kordinat
+
+37.800671434177985
+29.105763120709714
+
+Halley Kavşağı
+
+Kordinat
+
+37.784491323256646
+29.08713102868071
+
+Bayramyeri Meydanı
+
+Kordinat 
+
+37.784138714788625
+29.083949909355283
+
+Denizli Lisesi 
+
+Kordinat
+
+37.76816833792284
+29.084309665430567
+
+Orhan Abalıoğlu
+
+Kordinat
+
+37.81118757554002
+29.11125666430939
+
+Oya Ender Abalıoğlu Durağı
+
+Kordinat
+
+37.817718038413105
+29.114826547686878
+
+Leodikya Kavşağı
+
+Kordinat
+
+37.82235583486254
+29.11790769889243
+
+Yeniköy Durağı
+
+Kordinat
+
+37.894536138728526
+29.128411715069767
+
+Pamukkale 1 Durak
+
+Kordinat 
+37.91533720159125
+29.122083330434222
+
+Pamukkale 2 Durak
+
+Kordinat 
+37.91949387418252
+29.119809839831483
+
+
+Pamukkale 3 Durak
+
+Kordinat 
+
+37.91081010784087
+29.11400037024925
+
+
+Pamukkale 4 Durak
+
+Kordinat 
+
+37.91929387321477
+29.108982766029925
+
+Pamukkale 3 > 4 Duraklarından Gidilebiliyor sadece Akköy Durak
+
+Kordinat 
+
+37.954601819117116
+29.078349385756216
+
+Pamukkale 3 > 4 Duraklarından Gidilebiliyor sadece Karahayıt Durak
+
+Kordinat 
+
+37.9629723384514
+29.1048375910236
+
+Karahayıt ve Akköy Durakları Son Durak Olucak

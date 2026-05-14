@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Denizli Ulaşım A.Ş. — Akıllı Şehir Otobüs Takip Sistemi">
+    <title>Denizli Ulaşım A.Ş. | Akıllı Şehir</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Splash Screen / Loader -->
+    <div id="splashLoader" class="loader-overlay">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <img src="logo.png" alt="Logo" style="width: 140px; height: auto;">
+            </div>
+            <h1>Denizli Ulaşım</h1>
+            <p>Akıllı Şehir Sistemleri Başlatılıyor...</p>
+            <div class="loader-bar-container">
+                <div class="loader-bar-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FULLSCREEN MAP -->
+    <div id="map"></div>
+
+    <!-- TOP HEADER BAR -->
+    <header class="app-header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo" style="width: 32px; height: 32px; border-radius: 6px;">
+            <div class="logo-text">
+                <span class="logo-main">DENİZLİ</span>
+                <span class="logo-sub">ULAŞIM A.Ş.</span>
+            </div>
+        </div>
+        <div class="header-chips">
+            <div class="chip chip--green">
+                <span class="chip-dot"></span> Canlı
+            </div>
+            <div class="chip">22°C ☀️</div>
+            <div class="chip" id="clock">--:--</div>
+            <button class="chip chip--btn" onclick="findNearestStop()" title="En yakın durak">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                    <polygon points="3 11 22 2 13 21 11 13 3 11"/>
+                </svg>
+                Yakın Durak
+            </button>
+        </div>
+    </header>
+
+    <!-- MAIN (ROUTE LIST) PANEL -->
+    <div class="side-panel" id="mainPanel">
+        <div class="panel-handle"></div>
+
+        <div class="panel-top">
+            <h1 class="panel-title">Hatlar</h1>
+            <span class="panel-count" id="routeCount">10 hat</span>
+        </div>
+
+        <div class="search-wrap">
+            <svg class="search-svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input id="searchInput" type="text" placeholder="Hat numarası veya durak ara…">
+        </div>
+
+        <div class="route-list" id="routesList">
+            <!-- Rendered by app.js -->
+        </div>
+    </div>
+
+    <!-- DETAIL PANEL -->
+    <div class="side-panel detail-panel" id="detailPanel">
+        <div class="panel-handle"></div>
+
+        <button class="back-btn" onclick="closeDetail()">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/>
+            </svg>
+            Tüm Hatlar
+        </button>
+
+        <div class="detail-hero">
+            <span class="detail-badge" id="detailId">110</span>
+            <h2 class="detail-name" id="detailName">Hat Adı</h2>
+            <p class="detail-desc" id="detailDesc"></p>
+        </div>
+
+        <div class="dir-tabs">
+            <button class="dir-tab active" id="tabGidis" onclick="setDetailDirection('gidis')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                Gidiş
+            </button>
+            <button class="dir-tab" id="tabDonus" onclick="setDetailDirection('donus')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+                Dönüş
+            </button>
+        </div>
+
+        <div class="live-badge">
+            <span class="live-dot-anim"></span>
+            Canlı araç takibi aktif
+        </div>
+
+        <div class="timeline" id="timelineList">
+            <!-- Rendered by app.js -->
+        </div>
+    </div>
+
+    <!-- DATA FILES (order matters) -->
+    <script src="stops.js"></script>
+    <script src="routes.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
